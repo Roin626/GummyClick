@@ -1,0 +1,195 @@
+
+
+.Nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.MainNav:before, .MainNav:after, .MainNav-Button:after, .MainNav-Button_Active:before, .MainNav-Button_Active:after, .MainNav-Button_LeftOfActive:before, .MainNav-Button_RightOfActive:before {
+  content: '';
+  display: block;
+  position: absolute;
+}
+
+
+.Nav {
+  list-style: none;
+  margin-left: 0;
+}
+
+.Nav_Small {
+  font-size: 0.65em;
+}
+
+.Nav_Large {
+  font-size: 1.4em;
+}
+
+.MainNav {
+  -moz-border-radius: 0.4375em;
+  -webkit-border-radius: 0.4375em;
+  border-radius: 0.4375em;
+  -moz-box-shadow: #4d4d4d 0 -1px 0px 0px inset, rgba(255, 255, 255, 0.0857) 0 -5px 0px 0px inset, #1e1e1e 0 4px 0px 0px inset;
+  -webkit-box-shadow: #4d4d4d 0 -1px 0px 0px inset, rgba(255, 255, 255, 0.0857) 0 -5px 0px 0px inset, #1e1e1e 0 4px 0px 0px inset;
+  box-shadow: #4d4d4d 0 -1px 0px 0px inset, rgba(255, 255, 255, 0.0857) 0 -5px 0px 0px inset, #828781 0 4px 0px 0px inset;
+  background: #314232;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: inline-block;
+  text-align: center;
+  padding: 0.375em 0.3125em;
+  position: relative;
+}
+.MainNav:before {
+  -moz-border-radius-bottomleft: 0.4375em;
+  -webkit-border-bottom-left-radius: 0.4375em;
+  border-bottom-left-radius: 0.4375em;
+  background: rgba(36, 36, 36, 0.4);
+  width: 0.4375em;
+  height: 0.4375em;
+  bottom: 0;
+  left: 0;
+}
+.MainNav:after {
+  -moz-border-radius-bottomright: 0.4375em;
+  -webkit-border-bottom-right-radius: 0.4375em;
+  border-bottom-right-radius: 0.4375em;
+  background: rgba(36, 36, 36, 0.4);
+  width: 0.4375em;
+  height: 0.4375em;
+  bottom: 0;
+  right: 0;
+}
+
+.MainNav-Button {
+  -moz-border-radius: 0.3125em;
+  -webkit-border-radius: 0.3125em;
+  border-radius: 0.3125em;
+  -moz-box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0px 0px inset, rgba(255, 255, 255, 0.05) 0 1px 0px 1px inset, rgba(0, 0, 0, 0.7) 0 1px 2px 0px, rgba(9, 9, 9, 0.6) 0 2px 3px 2px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0px 0px inset, rgba(255, 255, 255, 0.05) 0 1px 0px 1px inset, rgba(0, 0, 0, 0.7) 0 1px 2px 0px, rgba(9, 9, 9, 0.6) 0 2px 3px 2px;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0px 0px inset, rgba(255, 255, 255, 0.05) 0 1px 0px 1px inset, rgba(0, 0, 0, 0.7) 0 1px 2px 0px, rgba(9, 9, 9, 0.6) 0 2px 3px 2px;
+  background-color: #96e4df;
+  background-image: -moz-linear-gradient(top, rgba(78, 78, 78, 0.15) 0%, rgba(65, 65, 65, 0.15) 2%, rgba(59, 59, 59, 0.15) 5%, rgba(56, 56, 56, 0.15) 32%, rgba(54, 54, 54, 0.15) 33%, rgba(53, 53, 53, 0.15) 46%, rgba(51, 51, 51, 0.15) 47%, rgba(50, 50, 50, 0.15) 60%, rgba(48, 48, 48, 0.15) 61%, rgba(42, 42, 42, 0.15) 100%);
+  background-image: -webkit-linear-gradient(top, rgba(78, 78, 78, 0.15) 0%, rgba(65, 65, 65, 0.15) 2%, rgba(59, 59, 59, 0.15) 5%, rgba(56, 56, 56, 0.15) 32%, rgba(54, 54, 54, 0.15) 33%, rgba(53, 53, 53, 0.15) 46%, rgba(51, 51, 51, 0.15) 47%, rgba(50, 50, 50, 0.15) 60%, rgba(48, 48, 48, 0.15) 61%, rgba(42, 42, 42, 0.15) 100%);
+  background-image: linear-gradient(to bottom, rgba(78, 78, 78, 0.15) 0%, rgba(65, 65, 65, 0.15) 2%, rgba(59, 59, 59, 0.15) 5%, rgba(56, 56, 56, 0.15) 32%, rgba(54, 54, 54, 0.15) 33%, rgba(53, 53, 53, 0.15) 46%, rgba(51, 51, 51, 0.15) 47%, rgba(50, 50, 50, 0.15) 60%, rgba(48, 48, 48, 0.15) 61%, rgba(42, 42, 42, 0.15) 100%);
+  background-size: 4px 4px;
+  float: left;
+  margin-right: 0.125em;
+  padding: 0.375em 0.4375em;
+  position: relative;
+}
+.MainNav-Button a {
+  -moz-border-radius: 0.45833em;
+  -webkit-border-radius: 0.45833em;
+  border-radius: 0.45833em;
+  text-shadow: #597a53ba 0 -1px 0;
+  background: rgba(182, 182, 182, 0.018);
+  color: rgba(255, 255, 255, 0.85);
+  display: block;
+  font-family: 'Fresca', sans-serif;
+  /*font-family:electronicFont;*/
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 0.5em 2.5em 0.5em;
+  text-decoration: none;
+}
+.MainNav-Button:hover {
+  -moz-box-shadow: rgba(255, 255, 255, 0.05) 0 1px 0px 0px inset, rgba(255, 255, 255, 0.02) 0 1px 0px 1px inset, rgba(9, 9, 9, 0.5) 0 2px 2px 1px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.05) 0 1px 0px 0px inset, rgba(255, 255, 255, 0.02) 0 1px 0px 1px inset, rgba(9, 9, 9, 0.5) 0 2px 2px 1px;
+  box-shadow: rgba(255, 255, 255, 0.05) 0 1px 0px 0px inset, rgba(255, 255, 255, 0.02) 0 1px 0px 1px inset, rgba(9, 9, 9, 0.5) 0 2px 2px 1px;
+}
+.MainNav-Button:hover a {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+.MainNav-Button:after {
+  background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.11) 69%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 0) 100%);
+  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.11) 69%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.11) 69%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  height: 1px;
+  left: 0;
+  top: 0;
+}
+
+.MainNav-Button_Active {
+  -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 0 0 1px inset;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 0 0 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 0 0 1px inset;
+  background-color: #6dbfac;
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, #6dbfac 50%);
+  background-size: 2px 2px;
+}
+.MainNav-Button_Active a {
+  /*text-shadow: rgba(255, 255, 255, 0.4) 0 0 35px, rgba(204, 255, 187, 0.95) 0 0 25px;*/
+  text-shadow:0 0 3px #b4f7c1, 0 0 5px #6aff88, 0 0 10px #6aff88, 0 0 10px #6aff88;
+  background: none;
+  color: #cdffcc;
+}
+.MainNav-Button_Active:before {
+  background-image: -moz-radial-gradient(center, ellipse cover, rgba(41, 137, 216, 0.51) 0%, rgba(30, 87, 153, 0.01) 53%, rgba(30, 87, 153, 0) 54%, rgba(30, 87, 153, 0) 57%);
+  background-image: -webkit-radial-gradient(center, ellipse cover, #adeeaf 0%, rgba(30, 87, 153, 0.01) 53%, rgba(30, 87, 153, 0) 54%, rgba(30, 87, 153, 0) 57%);
+  background-image: radial-gradient(center, ellipse cover, rgba(75, 255, 0, 0.51) 0%, rgba(30, 87, 153, 0.01) 53%, rgba(30, 87, 153, 0) 54%, rgba(30, 87, 153, 0) 57%);
+  -moz-box-shadow: rgba(76, 190, 255, 0.02) 0 0 0px 3px inset;
+  -webkit-box-shadow: rgba(76, 190, 255, 0.02) 0 0 0px 3px inset;
+  box-shadow: rgba(76, 190, 255, 0.02) 0 0 0px 3px inset;
+  top: -0.25em;
+  left: 10%;
+  width: 80%;
+  height: 0.375em;
+}
+.MainNav-Button_Active:after {
+  background-image: -moz-radial-gradient(center, ellipse cover, rgba(41, 137, 216, 0.51) 0%, rgba(30, 87, 153, 0.01) 53%, rgba(30, 87, 153, 0) 54%, rgba(30, 87, 153, 0) 57%);
+  background-image: -webkit-radial-gradient(center, ellipse cover, #a2ff7b 0%, rgba(30, 87, 153, 0.01) 53%, rgba(30, 87, 153, 0) 54%, rgba(30, 87, 153, 0) 57%);
+  background-image: radial-gradient(center, ellipse cover, rgba(75, 255, 0, 0.51) 0%, rgba(30, 87, 153, 0.01) 53%, rgba(30, 87, 153, 0) 54%, rgba(30, 87, 153, 0) 57%);
+  -moz-box-shadow: rgba(255, 255, 255, 0.05) 0 -5px 0px 0px inset;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.05) 0 -5px 0px 0px inset;
+  box-shadow: rgba(255, 255, 255, 0.05) 0 -5px 0px 0px inset;
+  top: inherit;
+  bottom: -0.5em;
+  left: 0;
+  width: 100%;
+  height: 0.5em;
+}
+.MainNav-Button_Active:hover {
+  -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 0 0 1px inset;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 0 0 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 0 0 1px inset;
+}
+
+.MainNav-Button_LeftOfActive:before {
+  -moz-box-shadow: rgba(80, 136, 137, 0.5) -1px 0px 0px 0px;
+  -webkit-box-shadow: rgba(80, 136, 137, 0.5) -1px 0px 0px 0px;
+  box-shadow: rgba(80, 136, 137, 0.5) -1px 0px 0px 0px;
+  background-image: -moz-linear-gradient(top, rgba(76, 190, 255, 0) 0%, rgba(76, 190, 255, 0.7) 50%, rgba(76, 190, 255, 0.69) 51%, rgba(76, 190, 255, 0) 100%);
+  background-image: -webkit-linear-gradient(top, rgba(76, 190, 255, 0) 0%, rgba(76, 190, 255, 0.7) 50%, rgba(76, 190, 255, 0.69) 51%, rgba(76, 190, 255, 0) 100%);
+  background-image: linear-gradient(to bottom, rgba(76, 190, 255, 0) 0%, rgba(118, 255, 60, 0.51) 50%, rgba(118, 255, 60, 0.51) 51%, rgba(76, 190, 255, 0) 100%);
+  width: 1px;
+  height: 90%;
+  right: 0;
+  top: 5%;
+}
+
+.MainNav-Button_RightOfActive:before {
+  -moz-box-shadow: rgba(80, 136, 137, 0.5) 1px 0px 0px 0px;
+  -webkit-box-shadow: rgba(80, 136, 137, 0.5) 1px 0px 0px 0px;
+  box-shadow: rgba(80, 136, 137, 0.5) 1px 0px 0px 0px;
+  background-image: -moz-linear-gradient(top, rgba(76, 190, 255, 0) 0%, rgba(76, 190, 255, 0.7) 50%, rgba(76, 190, 255, 0.69) 51%, rgba(76, 190, 255, 0) 100%);
+  background-image: -webkit-linear-gradient(top, rgba(76, 190, 255, 0) 0%, rgba(76, 190, 255, 0.7) 50%, rgba(76, 190, 255, 0.69) 51%, rgba(76, 190, 255, 0) 100%);
+  background-image: linear-gradient(to bottom, rgba(76, 190, 255, 0) 0%, rgba(118, 255, 60, 0.51) 50%, rgba(118, 255, 60, 0.51) 51%, rgba(76, 190, 255, 0) 100%);
+  width: 1px;
+  height: 90%;
+  left: 0;
+  top: 5%;
+}
+
+.TextLink {
+  text-decoration: none;
+  color: #a6a6a6;
+  font-weight: bold;
+}
+.TextLink:hover {
+  text-decoration: underline;
+}
+

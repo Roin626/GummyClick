@@ -1,0 +1,29 @@
+.progress_bar{
+    background: aliceblue;
+    width: 70%;
+    text-align: center;
+    border: #adeeaf 5px solid;
+    border-radius: 20px 20px 20px 20px;
+    display: inline-block;
+}
+.progress_bar hr{
+    height: inherit;
+    color: #97ff74;
+    background: linear-gradient(90deg, #0f0, #0ff 70%, transparent 0);
+    border-radius: 25px;
+    text-align: left;
+    margin: 3px;
+    width: 100%;
+}
+
+.progress_bar_bar {
+    height: 15px;
+    background: linear-gradient(90deg, #bfffe5, #92fb75);
+    border-radius: 25px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    border: 3px white solid;
+    width: 100%;
+
+}

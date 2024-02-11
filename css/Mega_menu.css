@@ -1,0 +1,37 @@
+.container {
+    /* Used to position the mega menu */
+    position: relative;
+    padding: 5px 0px 5px 0px;
+                    }
+
+.container__trigger:hover .container__content {
+    /* Show the mega menu when hovering the trigger item */
+    display: block;
+}
+
+.container__content {
+    padding: 5px 0px 5px 0px;
+
+    /* Border */
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 0px;
+    margin-top: -1px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    /* Hidden by default */
+    display: none;
+
+    /* Absolute position */
+    left: 0px;
+    position: absolute;
+    top: 100%;
+
+    /* Take full width */
+    width: 100%;
+
+    /* Displayed on top of other elements */
+    background: #ffffff8c;
+    z-index: 9999;
+
+}
